@@ -1,22 +1,31 @@
 package org.firstinspires.ftc.teamcode;
 
+import com.qualcomm.hardware.motors.RevRobotics20HdHexMotor;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+import org.firstinspires.ftc.teamcode.componets.Drivetrain;
 import com.qualcomm.robotcore.hardware.DcMotor;
-import com.qualcomm.robotcore.util.ElapsedTime;
-import com.qualcomm.robotcore.util.Range;
 
-
+@TeleOp(name="Basic: Iterative OpMode", group="Iterative Opmode")
+@Disabled
 public class Robot extends OpMode{
-
-
+    DcMotor leftFront;
+    DcMotor leftBack;
+    DcMotor rightFront;
+    DcMotor rightBack;
+    Drivetrain drivetrain;
 
     @Override
     public void init() {
         /* Initialize the hardware variables.
          * The init() method of the hardware class does all the work here
          */
+        leftFront = hardwareMap.dcMotor.get("leftFront");
+        leftBack = hardwareMap.dcMotor.get("leftBack");
+        rightFront = hardwareMap.dcMotor.get("rightFront");
+        rightBack = hardwareMap.dcMotor.get("rightBack");
+        drivetrain = new Drivetrain(leftFront,leftBack,rightFront,rightBack);
 
 
     }
