@@ -16,6 +16,7 @@ public class Robot extends OpMode{
     DcMotor rightBack;
     Drivetrain drivetrain;
 
+
     @Override
     public void init() {
         /* Initialize the hardware variables.
@@ -49,6 +50,7 @@ public class Robot extends OpMode{
      */
     @Override
     public void loop() {
+        drivetrain.driveCartisan(gamepad1.left_stick_x,gamepad1.left_stick_y,gamepad1.right_stick_x);
 
     }
 
