@@ -1,14 +1,11 @@
 package org.firstinspires.ftc.teamcode;
 
-import com.qualcomm.hardware.motors.RevRobotics20HdHexMotor;
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import org.firstinspires.ftc.teamcode.componets.Drivetrain;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
 @TeleOp(name="Basic: Iterative OpMode", group="Iterative Opmode")
-@Disabled
 public class Robot extends OpMode{
     DcMotor leftFront;
     DcMotor leftBack;
@@ -25,9 +22,10 @@ public class Robot extends OpMode{
         leftFront = hardwareMap.dcMotor.get("leftFront");
         leftBack = hardwareMap.dcMotor.get("leftBack");
         rightFront = hardwareMap.dcMotor.get("rightFront");
+        rightFront.setDirection(DcMotor.Direction.REVERSE);
         rightBack = hardwareMap.dcMotor.get("rightBack");
+        rightBack.setDirection(DcMotor.Direction.REVERSE);
         drivetrain = new Drivetrain(leftFront,leftBack,rightFront,rightBack);
-
 
     }
 
@@ -48,11 +46,14 @@ public class Robot extends OpMode{
     /*
      * Code to run REPEATEDLY after the driver hits PLAY but before they hit STOP
      */
+
     @Override
     public void loop() {
-        drivetrain.driveCartisan(gamepad1.left_stick_x,gamepad1.left_stick_y,gamepad1.right_stick_x);
+        drivetrain.driveCartesian(gamepad1.left_stick_x,gamepad1.left_stick_y,gamepad1.right_stick_x);
+
 
     }
+
 
     /*
      * Code to run ONCE after the driver hits STOP
