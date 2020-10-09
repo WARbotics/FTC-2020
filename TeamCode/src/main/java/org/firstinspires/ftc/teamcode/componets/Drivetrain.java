@@ -40,9 +40,9 @@ public class Drivetrain {
     public void driveCartesian(double x, double y, double theta){
         // I think that this also could be done by thinking it as net forces
         leftFront.setPower((y - x - theta));
-        rightFront.setPower(y - x + theta);
+        rightFront.setPower(y + x + theta);
         leftBack.setPower((y + x - theta));
-        rightBack.setPower((y + x + theta));
+        rightBack.setPower((y - x + theta));
     }
 
 

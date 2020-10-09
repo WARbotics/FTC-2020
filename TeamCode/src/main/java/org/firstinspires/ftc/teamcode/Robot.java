@@ -2,6 +2,8 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+
+import org.firstinspires.ftc.robotcore.internal.android.dex.Code;
 import org.firstinspires.ftc.teamcode.componets.Drivetrain;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
@@ -19,6 +21,7 @@ public class Robot extends OpMode{
     DcMotor rightFront;
     DcMotor rightBack;
     Drivetrain drivetrain;
+    /*
     Intake intake;
     DcMotor intakeMotor;
     Servo hopperServo;
@@ -27,7 +30,7 @@ public class Robot extends OpMode{
     DcMotor shooterMotor;
     Shooter shooter;
 
-
+    */
     @Override
     public void init() {
         /* Initialize the hardware variables.
@@ -40,12 +43,15 @@ public class Robot extends OpMode{
         rightBack = hardwareMap.dcMotor.get("rightBack");
         rightBack.setDirection(DcMotorSimple.Direction.REVERSE);
         drivetrain = new Drivetrain(leftFront,leftBack,rightFront,rightBack);
+        /*
         intake= new Intake(intakeMotor);
         hopperServo = hardwareMap.servo.get("hopperServo");
         pusherServo = hardwareMap.servo.get("pusherServo");
         hopper = new Hopper(hopperServo,pusherServo, 1,0,1,0); // Come back to later and figure out the min and maxs
         shooterMotor = hardwareMap.dcMotor.get("shooterMotor");
         shooter = new Shooter((DcMotorEx) shooterMotor, 3,0.0,0.0,0.0);
+
+         */
     }
 
     /*
@@ -54,7 +60,6 @@ public class Robot extends OpMode{
     @Override
     public void init_loop() {
     }
-
     /*
      * Code to run ONCE when the driver hits PLAY
      */
@@ -69,7 +74,7 @@ public class Robot extends OpMode{
     @Override
     public void loop() {
         drivetrain.driveCartesian(gamepad1.left_stick_x,gamepad1.left_stick_y,gamepad1.right_stick_x);
-
+    /*
         if(gamepad1.right_bumper){
             shooter.setSpeed(30); // m/s <---- find through physics
         }else{
@@ -104,6 +109,8 @@ public class Robot extends OpMode{
             intake.off();
 
         }
+        */
+
     }
 
 
