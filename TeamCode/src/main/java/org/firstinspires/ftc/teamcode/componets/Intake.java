@@ -13,7 +13,7 @@ public class Intake{
     }
 
     public void on(){
-        this.IntakeMotor.setPower(1);
+        this.IntakeMotor.setPower(.95);
 
     }
 
