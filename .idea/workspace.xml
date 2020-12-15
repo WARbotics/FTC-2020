@@ -7,10 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d41aa3bc-863e-45b2-9b3b-698cf435e113" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TeamCode/.idea/modules/TeamCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/FTC-2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/FTC-2020.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/FtcRobotController/FtcRobotController.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/FtcRobotController/FtcRobotController.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/TeamCode/TeamCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TeamCode/TeamCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/.transforms/3ff48f799474a36333aaf9d9c3d5af92/classes/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/3ff48f799474a36333aaf9d9c3d5af92/classes/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/generated/source/buildConfig/debug/com/qualcomm/ftcrobotcontroller/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/generated/source/buildConfig/debug/com/qualcomm/ftcrobotcontroller/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/com/qualcomm/ftcrobotcontroller/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/com/qualcomm/ftcrobotcontroller/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.common.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.common.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +70,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.firstinspires.ftc.teamcode" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TeamCode/src/main" />
       <recent name="$PROJECT_DIR$/TeamCode" />
@@ -70,7 +86,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeamCode" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="TeamCode" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="TeamCode" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -136,10 +152,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="764" y="12" width="900" height="1026" key="#PSD" timestamp="1601498232747">
+    <state x="764" y="12" width="900" height="1026" key="#PSD" timestamp="1603388737419">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="764" y="12" width="900" height="1026" key="#PSD/0.0.1680.1050@0.0.1680.1050" timestamp="1601498232747" />
+    <state x="764" y="12" width="900" height="1026" key="#PSD/0.0.1680.1050@0.0.1680.1050" timestamp="1603388737419" />
     <state x="716" y="12" width="964" height="1026" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601498350775">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -148,17 +164,45 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="841" y="12" width="822" height="1026" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1601047556189" />
+    <state x="636" y="12" width="1028" height="1026" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605559768937">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="636" y="12" width="1028" height="1026" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605559768937" />
+    <state x="841" y="12" width="822" height="1026" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604588703455">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="841" y="12" width="822" height="1026" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1050@0.0.1680.1050" timestamp="1604588703455" />
     <state x="841" y="12" width="822" height="1026" key="CommitChangelistDialog2" timestamp="1600978766513">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="841" y="12" width="822" height="1026" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1600978766513" />
+    <state width="1604" height="288" key="GridCell.Tab.0.bottom" timestamp="1605805513952">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1604" height="288" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605805513952" />
+    <state width="1604" height="288" key="GridCell.Tab.0.center" timestamp="1605805513951">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1604" height="288" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605805513951" />
+    <state width="1604" height="288" key="GridCell.Tab.0.left" timestamp="1605805513951">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1604" height="288" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605805513951" />
+    <state width="1604" height="288" key="GridCell.Tab.0.right" timestamp="1605805513951">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1604" height="288" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605805513951" />
     <state x="764" y="12" width="900" height="1026" key="SettingsEditor" timestamp="1601498530522">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="764" y="12" width="900" height="1026" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1601498530522" />
-    <state x="841" y="12" width="822" height="512" key="com.intellij.ide.util.TipDialog" timestamp="1601399796361">
+    <state x="841" y="12" width="822" height="1026" key="com.intellij.ide.util.TipDialog" timestamp="1608046124911">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="841" y="12" width="822" height="512" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1601399796361" />
+    <state x="841" y="12" width="822" height="1026" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1608046124911" />
+    <state x="505" y="239" width="670" height="676" key="search.everywhere.popup" timestamp="1605638260300">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="239" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605638260300" />
   </component>
 </project>
