@@ -118,15 +118,20 @@ attr collapseContentDescription
 attr collapseIcon
 attr color
 attr colorAccent
+attr colorAlmostDark
 attr colorBackgroundFloating
 attr colorButtonNormal
 attr colorControlActivated
 attr colorControlHighlight
 attr colorControlNormal
 attr colorError
+attr colorMedium
+attr colorMediumLight
+attr colorMediumMedium
 attr colorPrimary
 attr colorPrimaryDark
 attr colorSwitchThumbNormal
+attr colorVeryVeryDark
 attr colors
 attr commitIcon
 attr contentDescription
@@ -740,6 +745,7 @@ drawable notify_panel_notification_icon_bg
 drawable skystone_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable ultimategoal_background
 id ALT
 id CTRL
 id FUNCTION
@@ -1468,6 +1474,7 @@ string connection_owner_password_default
 string continuous_servo_description
 string controlHubDisplayName
 string controlHubFirmwareUpdateMessage
+string controlHubNotAbleToCommunicateWithInternalHub
 string control_hub_module_name
 string control_hub_usb_device_name
 string controllerPortConnectionInfoFormat
@@ -1556,6 +1563,7 @@ string log_label
 string lynxAnalogInputControllerDisplayName
 string lynxDcMotorControllerDisplayName
 string lynxDigitalChannelControllerDisplayName
+string lynxFirmwareFileEmpty
 string lynxFirmwareUpdateAlreadyInProgress
 string lynxFirmwareUpdateReadme
 string lynxI2cDeviceSynchDisplayName
@@ -1664,6 +1672,7 @@ string ota_result_type_invalid_file_location
 string ota_result_type_invalid_update_file
 string ota_result_type_ota_update_finished
 string ota_result_type_verification_succeeded
+string ota_result_type_verification_succeeded_localhost
 string packageName
 string packageNameDriverStation
 string packageNameRobotController
@@ -1815,6 +1824,7 @@ string rev_laser_sensor_name
 string rev_spark_mini_description
 string rev_spark_mini_name
 string rev_touch_sensor_description
+string rev_ultraplanetary_hd_hex_name
 string robotControllerAppUpdateReadme
 string robotOffTip
 string robotStateEmergencyStop
@@ -1949,6 +1959,7 @@ string usb_vid_name_qualcomm
 string userSensorTypeBusDefault
 string view_logs_activity
 string warning2_4GhzUnnecessaryUsage
+string warning2_4GhzUnnecessaryUsageWiFiDirectAuto
 string warningMismatchedAppVersions
 string warningProblemCommunicatingWithUSBDevice
 string warningTtsFailedToInitialize

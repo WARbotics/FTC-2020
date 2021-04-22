@@ -117,15 +117,20 @@ int attr collapseContentDescription 0x0
 int attr collapseIcon 0x0
 int attr color 0x0
 int attr colorAccent 0x0
+int attr colorAlmostDark 0x0
 int attr colorBackgroundFloating 0x0
 int attr colorButtonNormal 0x0
 int attr colorControlActivated 0x0
 int attr colorControlHighlight 0x0
 int attr colorControlNormal 0x0
 int attr colorError 0x0
+int attr colorMedium 0x0
+int attr colorMediumLight 0x0
+int attr colorMediumMedium 0x0
 int attr colorPrimary 0x0
 int attr colorPrimaryDark 0x0
 int attr colorSwitchThumbNormal 0x0
+int attr colorVeryVeryDark 0x0
 int attr colors 0x0
 int attr commitIcon 0x0
 int attr contentDescription 0x0
@@ -393,7 +398,6 @@ int color background_material_light 0x0
 int color background_orange 0x0
 int color background_very_light_grey 0x0
 int color background_white 0x0
-int color black 0x0
 int color border_orange 0x0
 int color bright_blue 0x0
 int color bright_foreground_disabled_material_dark 0x0
@@ -406,7 +410,6 @@ int color bright_green 0x0
 int color bright_orange 0x0
 int color bright_purple 0x0
 int color bright_red 0x0
-int color bright_red_text 0x0
 int color bright_teal 0x0
 int color button_material_dark 0x0
 int color button_material_light 0x0
@@ -415,7 +418,6 @@ int color dark_green 0x0
 int color dark_orange 0x0
 int color dark_purple 0x0
 int color dark_red 0x0
-int color dark_red_background 0x0
 int color dark_teal 0x0
 int color dashboardColor 0x0
 int color dim_foreground_disabled_material_dark 0x0
@@ -440,7 +442,6 @@ int color light_green 0x0
 int color light_orange 0x0
 int color light_purple 0x0
 int color light_red 0x0
-int color light_red_background 0x0
 int color light_teal 0x0
 int color line_gray 0x0
 int color logviewer_bgcolor 0x0
@@ -479,7 +480,6 @@ int color medium_medium_teal 0x0
 int color medium_orange 0x0
 int color medium_purple 0x0
 int color medium_red 0x0
-int color medium_red_background 0x0
 int color medium_teal 0x0
 int color notification_action_color_filter 0x0
 int color notification_icon_bg_color 0x0
@@ -509,8 +509,6 @@ int color text_warning 0x0
 int color text_white 0x0
 int color tooltip_background_dark 0x0
 int color tooltip_background_light 0x0
-int color transparent_color 0x0
-int color very_bright_red 0x0
 int color very_dark_blue 0x0
 int color very_dark_green 0x0
 int color very_dark_orange 0x0
@@ -523,7 +521,6 @@ int color very_very_dark_orange 0x0
 int color very_very_dark_purple 0x0
 int color very_very_dark_red 0x0
 int color very_very_dark_teal 0x0
-int color white 0x0
 int dimen abc_action_bar_content_inset_material 0x0
 int dimen abc_action_bar_content_inset_with_nav 0x0
 int dimen abc_action_bar_default_height_material 0x0
@@ -760,6 +757,7 @@ int drawable notify_panel_notification_icon_bg 0x0
 int drawable skystone_background 0x0
 int drawable tooltip_frame_dark 0x0
 int drawable tooltip_frame_light 0x0
+int drawable ultimategoal_background 0x0
 int id RelativeLayout 0x0
 int id accessibility_action_clickable_span 0x0
 int id accessibility_custom_action_0 0x0
@@ -1482,6 +1480,7 @@ int string connection_owner_password_default 0x0
 int string continuous_servo_description 0x0
 int string controlHubDisplayName 0x0
 int string controlHubFirmwareUpdateMessage 0x0
+int string controlHubNotAbleToCommunicateWithInternalHub 0x0
 int string control_hub_module_name 0x0
 int string control_hub_usb_device_name 0x0
 int string controllerPortConnectionInfoFormat 0x0
@@ -1570,6 +1569,7 @@ int string log_label 0x0
 int string lynxAnalogInputControllerDisplayName 0x0
 int string lynxDcMotorControllerDisplayName 0x0
 int string lynxDigitalChannelControllerDisplayName 0x0
+int string lynxFirmwareFileEmpty 0x0
 int string lynxFirmwareUpdateAlreadyInProgress 0x0
 int string lynxFirmwareUpdateReadme 0x0
 int string lynxI2cDeviceSynchDisplayName 0x0
@@ -1678,6 +1678,7 @@ int string ota_result_type_invalid_file_location 0x0
 int string ota_result_type_invalid_update_file 0x0
 int string ota_result_type_ota_update_finished 0x0
 int string ota_result_type_verification_succeeded 0x0
+int string ota_result_type_verification_succeeded_localhost 0x0
 int string packageName 0x0
 int string packageNameDriverStation 0x0
 int string packageNameRobotController 0x0
@@ -1829,6 +1830,7 @@ int string rev_laser_sensor_name 0x0
 int string rev_spark_mini_description 0x0
 int string rev_spark_mini_name 0x0
 int string rev_touch_sensor_description 0x0
+int string rev_ultraplanetary_hd_hex_name 0x0
 int string robotControllerAppUpdateReadme 0x0
 int string robotOffTip 0x0
 int string robotStateEmergencyStop 0x0
@@ -1963,6 +1965,7 @@ int string usb_vid_name_qualcomm 0x0
 int string userSensorTypeBusDefault 0x0
 int string view_logs_activity 0x0
 int string warning2_4GhzUnnecessaryUsage 0x0
+int string warning2_4GhzUnnecessaryUsageWiFiDirectAuto 0x0
 int string warningMismatchedAppVersions 0x0
 int string warningProblemCommunicatingWithUSBDevice 0x0
 int string warningTtsFailedToInitialize 0x0

@@ -1,6 +1,7 @@
 package org.firstinspires.ftc.teamcode.componets;
 
 import com.acmerobotics.dashboard.config.Config;
+
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
 import com.qualcomm.robotcore.hardware.PIDFCoefficients;
@@ -12,10 +13,11 @@ import java.util.ArrayList;
 @Config
 public class Shooter {
     boolean shooterStatus = false;
+    boolean shooterStatusPowerShot = false;
     public DcMotorEx shooterMotor;
     double radius;
-    public static double UPPER_BOUND = 8.0;
-    public static double LOWER_BOUND = 7.8;
+    public static double UPPER_BOUND = 8.175;
+    public static double LOWER_BOUND = 8.05;
     public double velocity = 0;
     public double targetVelocity = 0;
     ArrayList<Double> speedRn = new ArrayList<Double>();
@@ -49,6 +51,10 @@ public class Shooter {
     }
     public void setShooterStatus(boolean status){
         this.shooterStatus = status;
+    }
+    public void setShooterStatusPower(boolean status){ this.shooterStatusPowerShot = status;}
+    public boolean powerShotStatus(){
+        return this.shooterStatusPowerShot;
     }
     public void getSpeedArr(){
         System.out.println(this.shooterMotor.getVelocity(AngleUnit.RADIANS));
